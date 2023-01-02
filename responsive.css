@@ -1,0 +1,64 @@
+@media (max-width:700px) {
+    .bar {
+        display: block;
+        transition: 1s;
+
+    }
+
+    #sec_1 {
+        margin-left: -100%;
+        z-index: 1234;
+        position: absolute;
+        transition: 1s;
+    }
+
+    #sec_1.out {
+        margin-left: 0%;
+        position: absolute;
+        width: 50%;
+    }
+
+    .designer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .designer2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec_2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .sec_22 {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .bar.out {
+        margin-left: 50%;
+        transform: rotate(45deg);
+    }
+
+    .bar.out::after {
+        transform: rotate(100deg);
+        margin-top: -6px;
+    }
+
+    .bar.out::before {
+        opacity: 0;
+    }
+}
