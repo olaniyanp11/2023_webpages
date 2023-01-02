@@ -3,6 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+.welc {
+    text-align: center;
+    position: absolute;
+    z-index: 1234567890;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: dev 5s;
+    opacity: 0;
+}
+
+@keyframes dev {
+    0% {
+        opacity: 1;
+        display: flex;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.welc h1 {
+    font-size: 70px;
+    animation: shake 3s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.welc b {
+    font-size: 50px;
+    animation: up 2s;
+}
 
 .bar::before {
     width: 20px;
