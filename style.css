@@ -16,17 +16,25 @@
     height: 100vh;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    animation: dev 5s;
-    opacity: 0;
+    animation: dev 10s;
+        opacity: 0;
+        z-index: -11;
 }
 @keyframes dev {
     0% {
         opacity: 1;
+        z-index: 9999192192912;
         display: flex;
     }
-
+90% {
+    opacity: 1;
+    z-index: 0;
+    display: flex;
+    
+}
     100% {
         opacity: 0;
+        z-index: -10;
         display: none;
     }
 }
