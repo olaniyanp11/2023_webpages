@@ -26,15 +26,15 @@
         z-index: 9999192192912;
         display: flex;
     }
-90% {
-    opacity: 1;
-    z-index: 0;
-    display: flex;
+60% {
+    opacity: 0;
+    z-index: -1111110;
+    display: none;
     
 }
     100% {
         opacity: 0;
-        z-index: -10;
+        z-index: -11234567;
         display: none;
     }
 }
@@ -64,7 +64,7 @@
 
 .welc b {
     font-size: 50px;
-    animation: up 2s;
+    animation: up 1s;
 }
 
 .bar::before {
