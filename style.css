@@ -19,7 +19,6 @@
     animation: dev 5s;
     opacity: 0;
 }
-.box1
 @keyframes dev {
     0% {
         opacity: 1;
